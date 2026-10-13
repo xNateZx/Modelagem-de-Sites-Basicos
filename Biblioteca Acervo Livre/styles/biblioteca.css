@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+@font-face{
+    font-family: "Playfair";
+    src: url('../fonts/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.corpo{
+    background-color: #F4F2DD;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho{
+    height: 100px;
+    width: 100%;
+    background: #6d7c5f;
+    
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo{
+    width: 90px;
+    height: 90px;
+}
+
+.banner{
+    width: 100%;
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #F4F2DD;
+    font-size: larger;
+
+    background: rgba(40, 40, 30, 0.25);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.biblioteca_livros{
+    padding: 30px;
+    text-align: center;
+    flex: 1;
+}
+
+.biblioteca_livros h2{
+    margin-bottom: 40px;
+    font-family: Playfair;
+}
+
+.Lista_livros{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Livro1{
+    width: 230px;
+}
+
+.Livro1 img{
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.Livro1 h3,
+.LivroB h3 {
+    margin: 5px 0 0;
+    font-family: Playfair;
+    font-size: larger;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.LivroB {
+    display: block;
+    width: 230px;
+}
+
+.LivroB a {
+    display: block;
+    width: 100%;
+}
+
+.LivroB a img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 5px;
+    display: block;
+    cursor: pointer;
+}
+
+.link_livro{
+    display: block;
+    width: fit-content;
+    text-decoration: none;
+    margin: 20px auto 0;
+}
+
+.botao_mais{
+    width: 350px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+
+    background-color: #724d32;
+    color: #F4F2DD;
+    font-family: Playfair;
+    font-size: larger;
+    
+}
+
+.rodape{
+    height: 50px;
+    width: 100%;
+
+    background-color: #724d32;
+    font-family: Playfair;
+    color: #F4F2DD;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
